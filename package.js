@@ -12,7 +12,8 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4');
+  api.versionsFrom('1.4.4');
+  api.use('ecmascript');
   api.mainModule('isomorphic-logger-client.js', 'client');
   api.mainModule('isomorphic-logger-server.js', 'server');
   api.mainModule('isomorphic-logger.js', 'server');
