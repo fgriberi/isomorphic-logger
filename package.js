@@ -8,7 +8,8 @@ Package.describe({
 
 Npm.depends({
   'winston': '2.3.1',
-  'winston-daily-rotate-file': '1.4.6'
+  'winston-daily-rotate-file': '1.4.6',
+  'tinytest': '1.1.4'
 });
 
 Package.onUse(function(api) {
