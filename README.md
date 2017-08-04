@@ -27,7 +27,7 @@ logger.log(severity.INFO, 'This is a dummy message for test purpose');
 
 And to log a message from client side:
 ```javascript
-import logger, { severity } from 'meteor/fgriberi:isomorphic-logger';
+import { logger, severity } from 'meteor/fgriberi:isomorphic-logger';
 
 logger.log(severity.INFO, 'This is a dummy message for test purpose');
 ```
